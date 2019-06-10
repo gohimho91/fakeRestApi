@@ -1,304 +1,381 @@
 {
   "entryes": [{
-      "id": 0,
-      "name": "Rhonda",
+      "id": 1,
+      "name": "E1",
       "zoneId": 1
     }
   ],
   "stores": [{
-      "id": 0,
-      "name": "Caldwell",
-      "zoneId": 1,
-      "elevatorId": 0
-    },
-    {
       "id": 1,
-      "name": "Shawn",
+      "name": "Zara",
+      "type": "shop",
       "zoneId": 1,
-      "elevatorId": 0
+      "elevatorId": 1,
+      "range": 10,
+      "secondElevatorId": 2
     },
     {
       "id": 2,
-      "name": "Ferrell",
+      "name": "Altex",
+      "type": "shop",
       "zoneId": 1,
-      "elevatorId": 0
+      "elevatorId": 3,
+      "range": 5,
+      "secondElevatorId": 1
     },
     {
       "id": 3,
-      "name": "Booker",
+      "name": "Intersport",
+      "type": "shop",
       "zoneId": 1,
-      "elevatorId": 0
+      "elevatorId": 2,
+      "range": 15,
+      "secondElevatorId": 3
     },
     {
       "id": 4,
-      "name": "Frost",
-      "zoneId": 1,
-      "elevatorId": 0
+      "name": "CCC",
+      "type": "shop",
+      "zoneId": 2,
+      "elevatorId": 2,
+      "range": 10,
+      "secondElevatorId": 4
     },
     {
       "id": 5,
-      "name": "Kennedy",
-      "zoneId": 1,
-      "elevatorId": 0
+      "name": "Massimo Dutti",
+      "type": "shop",
+      "zoneId": 2,
+      "elevatorId": 4,
+      "range": 20,
+      "secondElevatorId": 2
     },
     {
       "id": 6,
-      "name": "Carey",
-      "zoneId": 1,
-      "elevatorId": 0
+      "name": "Douglas",
+      "type": "shop",
+      "zoneId": 2,
+      "elevatorId": 4,
+      "range": 30,
+      "secondElevatorId": 5
     },
     {
       "id": 7,
-      "name": "Maxine",
-      "zoneId": 1,
-      "elevatorId": 0
+      "name": "Auchan",
+      "type": "shop",
+      "zoneId": 3,
+      "elevatorId": 5,
+      "range": 10,
+      "secondElevatorId": 4
     },
     {
       "id": 8,
-      "name": "Fran",
-      "zoneId": 1,
-      "elevatorId": 0
+      "name": "Inmedio",
+      "type": "shop",
+      "zoneId": 3,
+      "elevatorId": 5,
+      "range": 15,
+      "secondElevatorId": 4
     },
     {
       "id": 9,
-      "name": "Marianne",
-      "zoneId": 1,
-      "elevatorId": 0
+      "name": "Meet concept",
+      "type": "shop",
+      "zoneId": 3,
+      "elevatorId": 5,
+      "range": 10,
+      "secondElevatorId": 4
     },
     {
       "id": 10,
-      "name": "Cortez",
-      "zoneId": 1,
-      "elevatorId": 0
+      "name": "Fortech",
+      "type": "company",
+      "zoneId": 3,
+      "elevatorId": 5,
+      "range": 5,
+      "secondElevatorId": 4
     }
   ],
   "elevators": [{
-      "id": 0,
-      "name": "Mcmillan",
+      "id": 1,
+      "name": "EL1",
       "zoneId": 1
     }
   ],
   "zones": [{
-      "id": 0,
-      "name": "Morse",
+      "id": 1,
+      "name": "Atrium",
       "floors": 4,
       "minFloor": -5,
       "maxFloor": 2,
-      "elevators": 9
-    },
-    {
-      "id": 1,
-      "name": "Reed",
-      "floors": 1,
-      "minFloor": 1,
-      "maxFloor": 1,
-      "elevators": 8
-    },
-    {
-      "id": 2,
-      "name": "Denise",
-      "floors": 4,
-      "minFloor": 4,
-      "maxFloor": 4,
-      "elevators": 7
-    },
-    {
-      "id": 3,
-      "name": "Parks",
-      "floors": 6,
-      "minFloor": 1,
-      "maxFloor": 1,
-      "elevators": 6
+      "elevators": 3
     }
   ],
   "parkingLots": [{
-      "id": 0,
-      "name": "Crosby",
-      "zoneId": 1,
-      "available": true,
-      "floor": 4,
-      "elevatorId": 0,
-      "range": 48
-    },
-    {
       "id": 1,
-      "name": "Sullivan",
+      "name": "A1",
       "zoneId": 1,
-      "available": true,
-      "floor": 5,
-      "elevatorId": 0,
-      "range": 33
+      "available": false,
+      "floor": -1,
+      "elevatorId": 3,
+      "range": 5,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
     },
     {
       "id": 2,
-      "name": "Hopkins",
+      "name": "A2",
       "zoneId": 1,
       "available": true,
-      "floor": 2,
-      "elevatorId": 0,
-      "range": 40
+      "floor": -1,
+      "elevatorId": 3,
+      "range": 10,
+      "coordinates": {
+        "x": 50,
+        "y": 10,
+        "isHorizontal": false
+      }
     },
     {
       "id": 3,
-      "name": "Kimberley",
+      "name": "A10",
       "zoneId": 1,
       "available": true,
-      "floor": 7,
-      "elevatorId": 0,
-      "range": 33
+      "floor": -1,
+      "elevatorId": 3,
+      "range": 35,
+      "coordinates": {
+        "x": 100,
+        "y": 10,
+        "isHorizontal": false
+      }
     },
     {
       "id": 4,
-      "name": "Church",
+      "name": "A56",
       "zoneId": 1,
       "available": true,
-      "floor": 5,
-      "elevatorId": 0,
-      "range": 14
+      "floor": -1,
+      "elevatorId": 3,
+      "range": 60,
+      "coordinates": {
+        "x": 150,
+        "y": 10,
+        "isHorizontal": false
+      }
     },
     {
       "id": 5,
-      "name": "Cohen",
+      "name": "C4",
       "zoneId": 1,
       "available": true,
-      "floor": 4,
-      "elevatorId": 0,
-      "range": 20
+      "floor": -1,
+      "elevatorId": 1,
+      "range": 15,
+      "coordinates": {
+        "x": 200,
+        "y": 10,
+        "isHorizontal": false
+      }
     },
     {
       "id": 6,
-      "name": "Miriam",
+      "name": "C20",
       "zoneId": 1,
-      "available": false,
-      "floor": 10,
-      "elevatorId": 0,
-      "range": 31
+      "available": true,
+      "floor": -1,
+      "elevatorId": 1,
+      "range": 40,
+      "coordinates": {
+        "x": 0,
+        "y": 150,
+        "isHorizontal": true
+      }
     },
     {
       "id": 7,
-      "name": "Deborah",
+      "name": "C77",
       "zoneId": 1,
-      "available": false,
-      "floor": 1,
-      "elevatorId": 0,
-      "range": 45
+      "available": true,
+      "floor": -1,
+      "elevatorId": 1,
+      "range": 25,
+      "coordinates": {
+        "x": 0,
+        "y": 200,
+        "isHorizontal": true
+      }
     },
     {
       "id": 8,
-      "name": "Rhodes",
+      "name": "F8",
       "zoneId": 1,
       "available": true,
-      "floor": 10,
-      "elevatorId": 0,
-      "range": 30
+      "floor": -2,
+      "elevatorId": 1,
+      "range": 20,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
     },
     {
       "id": 9,
-      "name": "Woodward",
+      "name": "H56",
       "zoneId": 1,
       "available": true,
-      "floor": 2,
-      "elevatorId": 0,
-      "range": 18
+      "floor": -3,
+      "elevatorId": 3,
+      "range": 30,
+      "coordinates": {
+        "x": 0,
+        "y": 300,
+        "isHorizontal": true
+      }
     },
     {
       "id": 10,
-      "name": "Montgomery",
+      "name": "J35",
       "zoneId": 1,
       "available": true,
-      "floor": 1,
-      "elevatorId": 0,
-      "range": 29
+      "floor": -4,
+      "elevatorId": 1,
+      "range": 15,
+      "coordinates": {
+        "x": 150,
+        "y": 150,
+        "isHorizontal": true
+      }
     },
     {
       "id": 11,
-      "name": "Addie",
+      "name": "L88",
       "zoneId": 1,
-      "available": false,
-      "floor": 3,
-      "elevatorId": 0,
-      "range": 19
+      "available": true,
+      "floor": -5,
+      "elevatorId": 1,
+      "range": 25,
+      "coordinates": {
+        "x": 150,
+        "y": 200,
+        "isHorizontal": true
+      }
     },
     {
       "id": 12,
-      "name": "Hodges",
+      "name": "D13",
       "zoneId": 1,
-      "available": false,
-      "floor": 1,
-      "elevatorId": 0,
-      "range": 34
+      "available": true,
+      "floor": -1,
+      "elevatorId": 3,
+      "range": 15,
+      "coordinates": {
+        "x": 150,
+        "y": 250,
+        "isHorizontal": true
+      }
     },
     {
       "id": 13,
-      "name": "Gillespie",
+      "name": "D89",
       "zoneId": 1,
       "available": false,
-      "floor": 8,
-      "elevatorId": 0,
-      "range": 13
+      "floor": -1,
+      "elevatorId": 2,
+      "range": 35,
+      "coordinates": {
+        "x": 150,
+        "y": 300,
+        "isHorizontal": true
+      }
     },
     {
       "id": 14,
-      "name": "Brennan",
+      "name": "E44",
       "zoneId": 1,
-      "available": false,
-      "floor": 8,
-      "elevatorId": 0,
-      "range": 21
+      "available": true,
+      "floor": -2,
+      "elevatorId": 2,
+      "range": 20,
+      "coordinates": {
+        "x": 150,
+        "y": 350,
+        "isHorizontal": true
+      }
     },
     {
       "id": 15,
-      "name": "Ochoa",
+      "name": "G2",
       "zoneId": 1,
       "available": true,
-      "floor": 1,
-      "elevatorId": 0,
-      "range": 6
+      "floor": -3,
+      "elevatorId": 2,
+      "range": 35,
+      "coordinates": {
+        "x": 150,
+        "y": 400,
+        "isHorizontal": true
+      }
     },
     {
       "id": 16,
-      "name": "Gates",
+      "name": "G4",
       "zoneId": 1,
       "available": true,
-      "floor": 3,
-      "elevatorId": 0,
-      "range": 12
+      "floor": -3,
+      "elevatorId": 2,
+      "range": 45,
+      "coordinates": {
+        "x": 150,
+        "y": 450,
+        "isHorizontal": true
+      }
     },
     {
       "id": 17,
-      "name": "Marilyn",
+      "name": "I3",
       "zoneId": 1,
       "available": true,
-      "floor": 5,
-      "elevatorId": 0,
-      "range": 28
+      "floor": -4,
+      "elevatorId": 2,
+      "range": 10,
+      "coordinates": {
+        "x": 150,
+        "y": 500,
+        "isHorizontal": true
+      }
     },
     {
       "id": 18,
-      "name": "Burks",
+      "name": "K32",
       "zoneId": 1,
-      "available": false,
-      "floor": 6,
-      "elevatorId": 0,
-      "range": 26
+      "available": true,
+      "floor": -5,
+      "elevatorId": 2,
+      "range": 25,
+      "coordinates": {
+        "x": 150,
+        "y": 550,
+        "isHorizontal": true
+      }
     },
     {
       "id": 19,
-      "name": "Bonnie",
+      "name": "K35",
       "zoneId": 1,
-      "available": false,
-      "floor": 9,
-      "elevatorId": 0,
-      "range": 8
-    },
-    {
-      "id": 20,
-      "name": "Tracey",
-      "zoneId": 1,
-      "available": false,
-      "floor": 3,
-      "elevatorId": 0,
-      "range": 11
+      "available": true,
+      "floor": -5,
+      "elevatorId": 2,
+      "range": 35,
+      "coordinates": {
+        "x": 150,
+        "y": 600,
+        "isHorizontal": true
+      }
     }
   ]
 }
