@@ -2,7 +2,37 @@
   "entryes": [{
       "id": 1,
       "name": "E1",
-      "zoneId": 1
+      "zoneId": 1,
+      "latitude": 47.157284,
+      "longitude": 27.5918818
+    },
+    {
+      "id": 2,
+      "name": "E2",
+      "zoneId": 2,
+      "latitude": 47.1559156,
+      "longitude": 27.5904663
+    },
+    {
+      "id": 3,
+      "name": "E3",
+      "zoneId": 3,
+      "latitude": 47.1558924,
+      "longitude": 27.5893739
+    },
+    {
+      "id": 4,
+      "name": "E4",
+      "zoneId": 4,
+      "latitude": 47.155198,
+      "longitude": 27.586669
+    },
+    {
+      "id": 5,
+      "name": "E5",
+      "zoneId": 4,
+      "latitude": 47.1581619,
+      "longitude": 27.5868264
     }
   ],
   "stores": [{
@@ -11,8 +41,7 @@
       "type": "shop",
       "zoneId": 1,
       "elevatorId": 1,
-      "range": 10,
-      "secondElevatorId": 2
+      "range": 10
     },
     {
       "id": 2,
@@ -29,8 +58,7 @@
       "type": "shop",
       "zoneId": 1,
       "elevatorId": 2,
-      "range": 15,
-      "secondElevatorId": 3
+      "range": 15
     },
     {
       "id": 4,
@@ -38,8 +66,7 @@
       "type": "shop",
       "zoneId": 2,
       "elevatorId": 2,
-      "range": 10,
-      "secondElevatorId": 4
+      "range": 10
     },
     {
       "id": 5,
@@ -47,8 +74,7 @@
       "type": "shop",
       "zoneId": 2,
       "elevatorId": 4,
-      "range": 20,
-      "secondElevatorId": 2
+      "range": 20
     },
     {
       "id": 6,
@@ -56,8 +82,7 @@
       "type": "shop",
       "zoneId": 2,
       "elevatorId": 4,
-      "range": 30,
-      "secondElevatorId": 5
+      "range": 30
     },
     {
       "id": 7,
@@ -65,8 +90,7 @@
       "type": "shop",
       "zoneId": 3,
       "elevatorId": 5,
-      "range": 10,
-      "secondElevatorId": 4
+      "range": 10
     },
     {
       "id": 8,
@@ -74,8 +98,7 @@
       "type": "shop",
       "zoneId": 3,
       "elevatorId": 5,
-      "range": 15,
-      "secondElevatorId": 4
+      "range": 15
     },
     {
       "id": 9,
@@ -83,8 +106,7 @@
       "type": "shop",
       "zoneId": 3,
       "elevatorId": 5,
-      "range": 10,
-      "secondElevatorId": 4
+      "range": 10
     },
     {
       "id": 10,
@@ -92,14 +114,43 @@
       "type": "company",
       "zoneId": 3,
       "elevatorId": 5,
-      "range": 5,
-      "secondElevatorId": 4
+      "range": 5
     }
   ],
   "elevators": [{
       "id": 1,
       "name": "EL1",
       "zoneId": 1
+    },
+    {
+      "id": 2,
+      "name": "EL2",
+      "zoneId": 1
+    },
+    {
+      "id": 3,
+      "name": "EL3",
+      "zoneId": 1
+    },
+    {
+      "id": 4,
+      "name": "EL4",
+      "zoneId": 2
+    },
+    {
+      "id": 5,
+      "name": "EL5",
+      "zoneId": 3
+    },
+    {
+      "id": 6,
+      "name": "EL6",
+      "zoneId": 4
+    },
+    {
+      "id": 7,
+      "name": "EL7",
+      "zoneId": 4
     }
   ],
   "zones": [{
@@ -109,6 +160,30 @@
       "minFloor": -5,
       "maxFloor": 2,
       "elevators": 3
+    },
+    {
+      "id": 2,
+      "name": "Zone2",
+      "floors": 3,
+      "minFloor": -1,
+      "maxFloor": 1,
+      "elevators": 1
+    },
+    {
+      "id": 3,
+      "name": "Zone3",
+      "floors": 4,
+      "minFloor": -2,
+      "maxFloor": 1,
+      "elevators": 1
+    },
+    {
+      "id": 4,
+      "name": "Zone4",
+      "floors": 2,
+      "minFloor": -1,
+      "maxFloor": 0,
+      "elevators": 2
     }
   ],
   "parkingLots": [{
@@ -159,6 +234,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -1,
+      "entryId": 1,
       "elevatorId": 3,
       "range": 60,
       "coordinates": {
@@ -173,6 +249,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -1,
+      "entryId": 1,
       "elevatorId": 1,
       "range": 15,
       "coordinates": {
@@ -187,6 +264,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -1,
+      "entryId": 1,
       "elevatorId": 1,
       "range": 40,
       "coordinates": {
@@ -201,6 +279,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -1,
+      "entryId": 1,
       "elevatorId": 1,
       "range": 25,
       "coordinates": {
@@ -215,6 +294,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -2,
+      "entryId": 1,
       "elevatorId": 1,
       "range": 20,
       "coordinates": {
@@ -229,6 +309,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -3,
+      "entryId": 1,
       "elevatorId": 3,
       "range": 30,
       "coordinates": {
@@ -243,6 +324,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -4,
+      "entryId": 1,
       "elevatorId": 1,
       "range": 15,
       "coordinates": {
@@ -257,6 +339,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -5,
+      "entryId": 1,
       "elevatorId": 1,
       "range": 25,
       "coordinates": {
@@ -271,6 +354,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -1,
+      "entryId": 1,
       "elevatorId": 3,
       "range": 15,
       "coordinates": {
@@ -285,6 +369,7 @@
       "zoneId": 1,
       "available": false,
       "floor": -1,
+      "entryId": 1,
       "elevatorId": 2,
       "range": 35,
       "coordinates": {
@@ -299,6 +384,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -2,
+      "entryId": 1,
       "elevatorId": 2,
       "range": 20,
       "coordinates": {
@@ -313,6 +399,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -3,
+      "entryId": 1,
       "elevatorId": 2,
       "range": 35,
       "coordinates": {
@@ -327,6 +414,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -3,
+      "entryId": 1,
       "elevatorId": 2,
       "range": 45,
       "coordinates": {
@@ -341,6 +429,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -4,
+      "entryId": 1,
       "elevatorId": 2,
       "range": 10,
       "coordinates": {
@@ -355,6 +444,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -5,
+      "entryId": 1,
       "elevatorId": 2,
       "range": 25,
       "coordinates": {
@@ -369,6 +459,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -5,
+      "entryId": 1,
       "elevatorId": 2,
       "range": 35,
       "coordinates": {
