@@ -192,6 +192,7 @@
       "zoneId": 1,
       "available": false,
       "floor": -1,
+      "entryId": 1,
       "elevatorId": 3,
       "range": 5,
       "coordinates": {
@@ -206,6 +207,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -1,
+      "entryId": 1,
       "elevatorId": 3,
       "range": 10,
       "coordinates": {
@@ -220,6 +222,7 @@
       "zoneId": 1,
       "available": true,
       "floor": -1,
+      "entryId": 1,
       "elevatorId": 3,
       "range": 35,
       "coordinates": {
