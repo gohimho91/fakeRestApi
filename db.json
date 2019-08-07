@@ -56,24 +56,6 @@
       "floor": 0
     },
     {
-      "id": 3,
-      "name": "Intersport",
-      "type": "shop",
-      "zoneId": 1,
-      "elevatorId": 2,
-      "range": 15,
-      "floor": 1
-    },
-    {
-      "id": 4,
-      "name": "CCC",
-      "type": "shop",
-      "zoneId": 2,
-      "elevatorId": 2,
-      "range": 10,
-      "floor": 1
-    },
-    {
       "id": 5,
       "name": "Massimo Dutti",
       "type": "shop",
@@ -99,24 +81,6 @@
       "elevatorId": 5,
       "range": 10,
       "floor": 0
-    },
-    {
-      "id": 8,
-      "name": "Inmedio",
-      "type": "shop",
-      "zoneId": 3,
-      "elevatorId": 5,
-      "range": 15,
-      "floor": 1
-    },
-    {
-      "id": 9,
-      "name": "Meet concept",
-      "type": "shop",
-      "zoneId": 3,
-      "elevatorId": 5,
-      "range": 10,
-      "floor": -1
     },
     {
       "id": 10,
@@ -146,15 +110,6 @@
       "floor": 0
     },
     {
-      "id": 13,
-      "name": "Chef galerie",
-      "type": "shop",
-      "zoneId": 4,
-      "elevatorId": 7,
-      "range": 15,
-      "floor": 0
-    },
-    {
       "id": 14,
       "name": "Atrium",
       "type": "area",
@@ -171,15 +126,6 @@
       "elevatorId": 5,
       "range": 30,
       "floor": 1
-    },
-    {
-      "id": 16,
-      "name": "Optymyze",
-      "type": "company",
-      "zoneId": 2,
-      "elevatorId": 4,
-      "range": 20,
-      "floor": 4
     },
     {
       "id": 17,
@@ -207,15 +153,6 @@
       "elevatorId": 7,
       "range": 40,
       "floor": 1
-    },
-    {
-      "id": 20,
-      "name": "Hervis Sports",
-      "type": "shop",
-      "zoneId": 2,
-      "elevatorId": 4,
-      "range": 5,
-      "floor": 0
     },
     {
       "id": 21,
@@ -337,16 +274,6 @@
       "range": 5
     },
     {
-      "id": 2,
-      "name": "A2",
-      "zoneId": 1,
-      "available": true,
-      "floor": -1,
-      "entryId": 1,
-      "elevatorId": 3,
-      "range": 10
-    },
-    {
       "id": 3,
       "name": "A10",
       "zoneId": 1,
@@ -355,16 +282,6 @@
       "entryId": 1,
       "elevatorId": 3,
       "range": 30
-    },
-    {
-      "id": 4,
-      "name": "A56",
-      "zoneId": 1,
-      "available": true,
-      "floor": -1,
-      "entryId": 1,
-      "elevatorId": 3,
-      "range": 45
     },
     {
       "id": 5,
@@ -385,16 +302,6 @@
       "entryId": 1,
       "elevatorId": 1,
       "range": 30
-    },
-    {
-      "id": 7,
-      "name": "C77",
-      "zoneId": 1,
-      "available": true,
-      "floor": -1,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 25
     },
     {
       "id": 8,
@@ -827,26 +734,6 @@
       "range": 35
     },
     {
-      "id": 51,
-      "name": "A3",
-      "zoneId": 1,
-      "available": false,
-      "floor": -1,
-      "entryId": 1,
-      "elevatorId": 3,
-      "range": 15
-    }, 
-    {
-      "id": 52,
-      "name": "A4",
-      "zoneId": 1,
-      "available": false,
-      "floor": -1,
-      "entryId": 1,
-      "elevatorId": 3,
-      "range": 20
-    }, 
-    {
       "id": 53,
       "name": "A5",
       "zoneId": 1,
@@ -867,26 +754,6 @@
       "range": 45
     }, 
     {
-      "id": 55,
-      "name": "A7",
-      "zoneId": 1,
-      "available": false,
-      "floor": -1,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 25
-    }, 
-    {
-      "id": 56,
-      "name": "A8",
-      "zoneId": 1,
-      "available": true,
-      "floor": -1,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 30
-    }, 
-    {
       "id": 57,
       "name": "A9",
       "zoneId": 1,
@@ -905,26 +772,6 @@
       "entryId": 1,
       "elevatorId": 1,
       "range": 25
-    },
-    {
-      "id": 59,
-      "name": "A12",
-      "zoneId": 1,
-      "available": true,
-      "floor": -1,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 45
-    },
-    {
-      "id": 60,
-      "name": "A13",
-      "zoneId": 1,
-      "available": true,
-      "floor": -1,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 30
     },
     {
       "id": 61,
@@ -962,27 +809,6 @@
       "range": 15
     },
     {
-      "id": 64,
-      "name": "A17",
-      "zoneId": 1,
-      "available": false,
-      "floor": -1,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 20
-      }
-    },
-    {
-      "id": 65,
-      "name": "A18",
-      "zoneId": 1,
-      "available": true,
-      "floor": -1,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 25
-    },
-    {
       "id": 66,
       "name": "A19",
       "zoneId": 1,
@@ -1001,26 +827,6 @@
       "entryId": 1,
       "elevatorId": 1,
       "range": 5
-    },
-    {
-      "id": 68,
-      "name": "F2",
-      "zoneId": 1,
-      "available": true,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 10
-    },
-    {
-      "id": 69,
-      "name": "F3",
-      "zoneId": 1,
-      "available": true,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 15
     },
     {
       "id": 70,
@@ -1053,26 +859,6 @@
       "range": 35
     },
     {
-      "id": 73,
-      "name": "F7",
-      "zoneId": 1,
-      "available": true,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 40
-    },
-    {
-      "id": 74,
-      "name": "F9",
-      "zoneId": 1,
-      "available": true,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 45
-    },
-    {
       "id": 75,
       "name": "F10",
       "zoneId": 1,
@@ -1101,26 +887,6 @@
       "entryId": 1,
       "elevatorId": 1,
       "range": 60
-    },
-    {
-      "id": 78,
-      "name": "F13",
-      "zoneId": 1,
-      "available": true,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 65
-    },
-    {
-      "id": 79,
-      "name": "F14",
-      "zoneId": 1,
-      "available": true,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 45
     },
     {
       "id": 80,
@@ -1153,37 +919,6 @@
       "range": 30
     },
     {
-      "id": 83,
-      "name": "F18",
-      "zoneId": 1,
-      "available": true,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 35
-    },
-    {
-      "id": 84,
-      "name": "F19",
-      "zoneId": 1,
-      "available": true,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 40
-    },
-    {
-      "id": 85,
-      "name": "F20",
-      "zoneId": 1,
-      "available": false,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 45al": true
-      }
-    },
-    {
       "id": 86,
       "name": "F21",
       "zoneId": 1,
@@ -1192,86 +927,6 @@
       "entryId": 1,
       "elevatorId": 1,
       "range": 50
-    },
-    {
-      "id": 87,
-      "name": "F22",
-      "zoneId": 1,
-      "available": false,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 55
-    },
-    {
-      "id": 88,
-      "name": "F23",
-      "zoneId": 1,
-      "available": true,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 60
-    },
-    {
-      "id": 89,
-      "name": "F24",
-      "zoneId": 1,
-      "available": true,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 15
-    },
-    {
-      "id": 90,
-      "name": "F25",
-      "zoneId": 1,
-      "available": true,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 25
-    },
-    {
-      "id": 91,
-      "name": "F26",
-      "zoneId": 1,
-      "available": false,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 35
-    },
-    {
-      "id": 92,
-      "name": "F27",
-      "zoneId": 1,
-      "available": false,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 45
-    },
-    {
-      "id": 93,
-      "name": "F28",
-      "zoneId": 1,
-      "available": false,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 55
-    },
-    {
-      "id": 94,
-      "name": "F29",
-      "zoneId": 1,
-      "available": false,
-      "floor": -2,
-      "entryId": 1,
-      "elevatorId": 1,
-      "range": 30
     },
     {
       "id": 95,
