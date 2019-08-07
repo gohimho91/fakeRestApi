@@ -1,5 +1,6 @@
 {
-  "entries": [{
+  "entries": [
+    {
       "id": 1,
       "name": "E1",
       "zoneId": 1,
@@ -35,13 +36,15 @@
       "longitude": 27.5868264
     }
   ],
-  "stores": [{
+  "stores": [
+    {
       "id": 1,
       "name": "Zara",
       "type": "shop",
       "zoneId": 1,
       "elevatorId": 1,
-      "range": 10
+      "range": 10,
+      "floor": 1
     },
     {
       "id": 2,
@@ -50,7 +53,7 @@
       "zoneId": 1,
       "elevatorId": 3,
       "range": 5,
-      "secondElevatorId": 1
+      "floor": 0
     },
     {
       "id": 3,
@@ -58,7 +61,8 @@
       "type": "shop",
       "zoneId": 1,
       "elevatorId": 2,
-      "range": 15
+      "range": 15,
+      "floor": 1
     },
     {
       "id": 4,
@@ -66,7 +70,8 @@
       "type": "shop",
       "zoneId": 2,
       "elevatorId": 2,
-      "range": 10
+      "range": 10,
+      "floor": 1
     },
     {
       "id": 5,
@@ -74,7 +79,8 @@
       "type": "shop",
       "zoneId": 2,
       "elevatorId": 4,
-      "range": 20
+      "range": 20,
+      "floor": 1
     },
     {
       "id": 6,
@@ -82,7 +88,8 @@
       "type": "shop",
       "zoneId": 2,
       "elevatorId": 4,
-      "range": 30
+      "range": 30,
+      "floor": 1
     },
     {
       "id": 7,
@@ -90,7 +97,8 @@
       "type": "shop",
       "zoneId": 3,
       "elevatorId": 5,
-      "range": 10
+      "range": 10,
+      "floor": 0
     },
     {
       "id": 8,
@@ -98,7 +106,8 @@
       "type": "shop",
       "zoneId": 3,
       "elevatorId": 5,
-      "range": 15
+      "range": 15,
+      "floor": 1
     },
     {
       "id": 9,
@@ -106,7 +115,8 @@
       "type": "shop",
       "zoneId": 3,
       "elevatorId": 5,
-      "range": 10
+      "range": 10,
+      "floor": -1
     },
     {
       "id": 10,
@@ -114,10 +124,138 @@
       "type": "company",
       "zoneId": 3,
       "elevatorId": 5,
-      "range": 5
+      "range": 5,
+      "floor": 1
+    },
+    {
+      "id": 11,
+      "name": "Endava",
+      "type": "company",
+      "zoneId": 4,
+      "elevatorId": 6,
+      "range": 25,
+      "floor": 0
+    },
+    {
+      "id": 12,
+      "name": "Carbon",
+      "type": "shop",
+      "zoneId": 4,
+      "elevatorId": 6,
+      "range": 10,
+      "floor": 0
+    },
+    {
+      "id": 13,
+      "name": "Chef galerie",
+      "type": "shop",
+      "zoneId": 4,
+      "elevatorId": 7,
+      "range": 15,
+      "floor": 0
+    },
+    {
+      "id": 14,
+      "name": "Atrium",
+      "type": "area",
+      "zoneId": 1,
+      "elevatorId": 2,
+      "range": 40,
+      "floor": 0
+    },
+    {
+      "id": 15,
+      "name": "Foodcourt",
+      "type": "area",
+      "zoneId": 3,
+      "elevatorId": 5,
+      "range": 30,
+      "floor": 1
+    },
+    {
+      "id": 16,
+      "name": "Optymyze",
+      "type": "company",
+      "zoneId": 2,
+      "elevatorId": 4,
+      "range": 20,
+      "floor": 4
+    },
+    {
+      "id": 17,
+      "name": "KFC",
+      "type": "shop",
+      "zoneId": 2,
+      "elevatorId": 2,
+      "range": 15,
+      "floor": 0
+    },
+    {
+      "id": 18,
+      "name": "Congress Hall",
+      "type": "eveniment",
+      "zoneId": 1,
+      "elevatorId": 1,
+      "range": 5,
+      "floor": 2
+    },
+    {
+      "id": 19,
+      "name": "Sala Rossini",
+      "type": "eveniment",
+      "zoneId": 4,
+      "elevatorId": 7,
+      "range": 40,
+      "floor": 1
+    },
+    {
+      "id": 20,
+      "name": "Hervis Sports",
+      "type": "shop",
+      "zoneId": 2,
+      "elevatorId": 4,
+      "range": 5,
+      "floor": 0
+    },
+    {
+      "id": 21,
+      "name": "H&M",
+      "type": "shop",
+      "zoneId": 1,
+      "elevatorId": 2,
+      "range": 5,
+      "floor": 1
+    },
+    {
+      "id": 22,
+      "name": "Nike",
+      "type": "shop",
+      "zoneId": 1,
+      "elevatorId": 2,
+      "range": 15,
+      "floor": 0
+    },
+    {
+      "id": 23,
+      "name": "Bershka",
+      "type": "shop",
+      "zoneId": 1,
+      "elevatorId": 2,
+      "range": 10,
+      "floor": 0
+    },
+    {
+      "id": 24,
+      "name": "IQOS",
+      "type": "shop",
+      "zoneId": 2,
+      "elevatorId": 4,
+      "range": 35,
+      "floor": 1
     }
   ],
-  "elevators": [{
+  "elevators": [
+    {
       "id": 1,
       "name": "EL1",
       "zoneId": 1
@@ -153,10 +291,11 @@
       "zoneId": 4
     }
   ],
-  "zones": [{
+  "zones": [
+    {
       "id": 1,
-      "name": "Atrium",
-      "floors": 4,
+      "name": "Zone1",
+      "floors": 8,
       "minFloor": -5,
       "maxFloor": 2,
       "elevators": 3
@@ -186,11 +325,12 @@
       "elevators": 2
     }
   ],
-  "parkingLots": [{
+  "parkingLots": [
+    {
       "id": 1,
       "name": "A1",
       "zoneId": 1,
-      "available": false,
+      "available": true,
       "floor": -1,
       "entryId": 1,
       "elevatorId": 3,
@@ -224,7 +364,7 @@
       "floor": -1,
       "entryId": 1,
       "elevatorId": 3,
-      "range": 35,
+      "range": 30,
       "coordinates": {
         "x": 100,
         "y": 10,
@@ -239,7 +379,7 @@
       "floor": -1,
       "entryId": 1,
       "elevatorId": 3,
-      "range": 60,
+      "range": 45,
       "coordinates": {
         "x": 150,
         "y": 10,
@@ -250,7 +390,7 @@
       "id": 5,
       "name": "C4",
       "zoneId": 1,
-      "available": true,
+      "available": false,
       "floor": -1,
       "entryId": 1,
       "elevatorId": 1,
@@ -269,7 +409,7 @@
       "floor": -1,
       "entryId": 1,
       "elevatorId": 1,
-      "range": 40,
+      "range": 30,
       "coordinates": {
         "x": 0,
         "y": 150,
@@ -299,7 +439,7 @@
       "floor": -2,
       "entryId": 1,
       "elevatorId": 1,
-      "range": 20,
+      "range": 45,
       "coordinates": {
         "x": 0,
         "y": 250,
@@ -310,11 +450,11 @@
       "id": 9,
       "name": "H56",
       "zoneId": 1,
-      "available": true,
+      "available": false,
       "floor": -3,
       "entryId": 1,
       "elevatorId": 3,
-      "range": 30,
+      "range": 40,
       "coordinates": {
         "x": 0,
         "y": 300,
@@ -329,7 +469,7 @@
       "floor": -4,
       "entryId": 1,
       "elevatorId": 1,
-      "range": 15,
+      "range": 35,
       "coordinates": {
         "x": 150,
         "y": 150,
@@ -340,11 +480,11 @@
       "id": 11,
       "name": "L88",
       "zoneId": 1,
-      "available": true,
+      "available": false,
       "floor": -5,
       "entryId": 1,
       "elevatorId": 1,
-      "range": 25,
+      "range": 50,
       "coordinates": {
         "x": 150,
         "y": 200,
@@ -359,7 +499,7 @@
       "floor": -1,
       "entryId": 1,
       "elevatorId": 3,
-      "range": 15,
+      "range": 25,
       "coordinates": {
         "x": 150,
         "y": 250,
@@ -370,11 +510,11 @@
       "id": 13,
       "name": "D89",
       "zoneId": 1,
-      "available": false,
+      "available": true,
       "floor": -1,
       "entryId": 1,
       "elevatorId": 2,
-      "range": 35,
+      "range": 55,
       "coordinates": {
         "x": 150,
         "y": 300,
@@ -389,7 +529,7 @@
       "floor": -2,
       "entryId": 1,
       "elevatorId": 2,
-      "range": 20,
+      "range": 60,
       "coordinates": {
         "x": 150,
         "y": 350,
@@ -400,11 +540,11 @@
       "id": 15,
       "name": "G2",
       "zoneId": 1,
-      "available": true,
+      "available": false,
       "floor": -3,
       "entryId": 1,
       "elevatorId": 2,
-      "range": 35,
+      "range": 65,
       "coordinates": {
         "x": 150,
         "y": 400,
@@ -419,7 +559,7 @@
       "floor": -3,
       "entryId": 1,
       "elevatorId": 2,
-      "range": 45,
+      "range": 10,
       "coordinates": {
         "x": 150,
         "y": 450,
@@ -434,7 +574,7 @@
       "floor": -4,
       "entryId": 1,
       "elevatorId": 2,
-      "range": 10,
+      "range": 5,
       "coordinates": {
         "x": 150,
         "y": 500,
@@ -445,11 +585,11 @@
       "id": 18,
       "name": "K32",
       "zoneId": 1,
-      "available": true,
+      "available": false,
       "floor": -5,
       "entryId": 1,
       "elevatorId": 2,
-      "range": 25,
+      "range": 10,
       "coordinates": {
         "x": 150,
         "y": 550,
@@ -464,10 +604,1150 @@
       "floor": -5,
       "entryId": 1,
       "elevatorId": 2,
-      "range": 35,
+      "range": 20,
       "coordinates": {
         "x": 150,
         "y": 600,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 20,
+      "name": "M7",
+      "zoneId": 2,
+      "available": true,
+      "floor": -1,
+      "entryId": 2,
+      "elevatorId": 4,
+      "range": 20,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 21,
+      "name": "M68",
+      "zoneId": 2,
+      "available": true,
+      "floor": -1,
+      "entryId": 2,
+      "elevatorId": 4,
+      "range": 40,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 22,
+      "name": "M35",
+      "zoneId": 2,
+      "available": true,
+      "floor": -1,
+      "entryId": 2,
+      "elevatorId": 4,
+      "range": 35,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 23,
+      "name": "M80",
+      "zoneId": 2,
+      "available": true,
+      "floor": -1,
+      "entryId": 2,
+      "elevatorId": 4,
+      "range": 75,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 24,
+      "name": "M95",
+      "zoneId": 2,
+      "available": true,
+      "floor": -1,
+      "entryId": 2,
+      "elevatorId": 4,
+      "range": 70,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 25,
+      "name": "O38",
+      "zoneId": 3,
+      "available": true,
+      "floor": -2,
+      "entryId": 3,
+      "elevatorId": 5,
+      "range": 35,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 26,
+      "name": "O11",
+      "zoneId": 3,
+      "available": true,
+      "floor": -1,
+      "entryId": 3,
+      "elevatorId": 5,
+      "range": 25,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 27,
+      "name": "P67",
+      "zoneId": 3,
+      "available": true,
+      "floor": -1,
+      "entryId": 3,
+      "elevatorId": 5,
+      "range": 45,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 28,
+      "name": "P86",
+      "zoneId": 3,
+      "available": true,
+      "floor": -1,
+      "entryId": 3,
+      "elevatorId": 5,
+      "range": 50,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 29,
+      "name": "Q26",
+      "zoneId": 3,
+      "available": true,
+      "floor": -2,
+      "entryId": 3,
+      "elevatorId": 5,
+      "range": 30,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 30,
+      "name": "Q59",
+      "zoneId": 3,
+      "available": true,
+      "floor": -2,
+      "entryId": 3,
+      "elevatorId": 5,
+      "range": 55,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 31,
+      "name": "Q94",
+      "zoneId": 3,
+      "available": true,
+      "floor": -2,
+      "entryId": 3,
+      "elevatorId": 5,
+      "range": 80,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 32,
+      "name": "R7",
+      "zoneId": 3,
+      "available": true,
+      "floor": -2,
+      "entryId": 3,
+      "elevatorId": 5,
+      "range": 40,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 33,
+      "name": "R32",
+      "zoneId": 3,
+      "available": true,
+      "floor": -2,
+      "entryId": 3,
+      "elevatorId": 5,
+      "range": 65,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 34,
+      "name": "R70",
+      "zoneId": 3,
+      "available": true,
+      "floor": -2,
+      "entryId": 3,
+      "elevatorId": 5,
+      "range": 95,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 35,
+      "name": "S46",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 4,
+      "elevatorId": 6,
+      "range": 60,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 36,
+      "name": "S18",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 4,
+      "elevatorId": 6,
+      "range": 25,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 37,
+      "name": "S69",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 4,
+      "elevatorId": 6,
+      "range": 75,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 38,
+      "name": "T66",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 4,
+      "elevatorId": 6,
+      "range": 25,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 39,
+      "name": "T99",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 4,
+      "elevatorId": 6,
+      "range": 57,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 40,
+      "name": "U45",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 4,
+      "elevatorId": 6,
+      "range": 35,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 41,
+      "name": "U71",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 4,
+      "elevatorId": 6,
+      "range": 40,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 42,
+      "name": "V6",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 4,
+      "elevatorId": 6,
+      "range": 15,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 43,
+      "name": "V8",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 4,
+      "elevatorId": 6,
+      "range": 25,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 44,
+      "name": "V16",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 4,
+      "elevatorId": 6,
+      "range": 45,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 45,
+      "name": "W8",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 5,
+      "elevatorId": 7,
+      "range": 15,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 46,
+      "name": "W18",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 5,
+      "elevatorId": 7,
+      "range": 35,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 47,
+      "name": "W79",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 5,
+      "elevatorId": 7,
+      "range": 65,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 48,
+      "name": "W88",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 5,
+      "elevatorId": 7,
+      "range": 75,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 49,
+      "name": "Z3",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 5,
+      "elevatorId": 7,
+      "range": 45,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 50,
+      "name": "Z8",
+      "zoneId": 4,
+      "available": true,
+      "floor": -1,
+      "entryId": 5,
+      "elevatorId": 7,
+      "range": 35,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    },
+    {
+      "id": 51,
+      "name": "A3",
+      "zoneId": 1,
+      "available": false,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 3,
+      "range": 15,
+      "coordinates": {
+        "x": 0,
+        "y": 10,
+        "isHorizontal": false
+      }
+    }, 
+    {
+      "id": 52,
+      "name": "A4",
+      "zoneId": 1,
+      "available": false,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 3,
+      "range": 20,
+      "coordinates": {
+        "x": 50,
+        "y": 10,
+        "isHorizontal": false
+      }
+    }, 
+    {
+      "id": 53,
+      "name": "A5",
+      "zoneId": 1,
+      "available": false,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 3,
+      "range": 30,
+      "coordinates": {
+        "x": 100,
+        "y": 10,
+        "isHorizontal": false
+      }
+    }, 
+    {
+      "id": 54,
+      "name": "A6",
+      "zoneId": 1,
+      "available": true,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 3,
+      "range": 45,
+      "coordinates": {
+        "x": 150,
+        "y": 10,
+        "isHorizontal": false
+      }
+    }, 
+    {
+      "id": 55,
+      "name": "A7",
+      "zoneId": 1,
+      "available": false,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 25,
+      "coordinates": {
+        "x": 200,
+        "y": 10,
+        "isHorizontal": false
+      }
+    }, 
+    {
+      "id": 56,
+      "name": "A8",
+      "zoneId": 1,
+      "available": true,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 30,
+      "coordinates": {
+        "x": 0,
+        "y": 150,
+        "isHorizontal": true
+      }
+    }, 
+    {
+      "id": 57,
+      "name": "A9",
+      "zoneId": 1,
+      "available": true,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 25,
+      "coordinates": {
+        "x": 0,
+        "y": 200,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 58,
+      "name": "A11",
+      "zoneId": 1,
+      "available": true,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 25,
+      "coordinates": {
+        "x": 0,
+        "y": 200,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 59,
+      "name": "A12",
+      "zoneId": 1,
+      "available": true,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 45,
+      "coordinates": {
+        "x": 0,
+        "y": 200,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 60,
+      "name": "A13",
+      "zoneId": 1,
+      "available": true,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 30,
+      "coordinates": {
+        "x": 0,
+        "y": 200,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 61,
+      "name": "A14",
+      "zoneId": 1,
+      "available": true,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 55,
+      "coordinates": {
+        "x": 0,
+        "y": 200,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 62,
+      "name": "A15",
+      "zoneId": 1,
+      "available": true,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 45,
+      "coordinates": {
+        "x": 0,
+        "y": 200,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 63,
+      "name": "A16",
+      "zoneId": 1,
+      "available": true,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 15,
+      "coordinates": {
+        "x": 0,
+        "y": 200,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 64,
+      "name": "A17",
+      "zoneId": 1,
+      "available": false,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 20,
+      "coordinates": {
+        "x": 0,
+        "y": 200,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 65,
+      "name": "A18",
+      "zoneId": 1,
+      "available": true,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 25,
+      "coordinates": {
+        "x": 0,
+        "y": 200,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 66,
+      "name": "A19",
+      "zoneId": 1,
+      "available": true,
+      "floor": -1,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 30,
+      "coordinates": {
+        "x": 0,
+        "y": 200,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 67,
+      "name": "F1",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 5,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 68,
+      "name": "F2",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 10,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 69,
+      "name": "F3",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 15,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 70,
+      "name": "F4",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 45,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 71,
+      "name": "F5",
+      "zoneId": 1,
+      "available": false,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 30,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 72,
+      "name": "F6",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 35,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 73,
+      "name": "F7",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 40,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 74,
+      "name": "F9",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 45,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 75,
+      "name": "F10",
+      "zoneId": 1,
+      "available": false,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 50,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 76,
+      "name": "F11",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 55,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 77,
+      "name": "F12",
+      "zoneId": 1,
+      "available": false,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 60,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 78,
+      "name": "F13",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 65,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 79,
+      "name": "F14",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 45,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 80,
+      "name": "F15",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 45,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 81,
+      "name": "F16",
+      "zoneId": 1,
+      "available": false,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 25,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 82,
+      "name": "F17",
+      "zoneId": 1,
+      "available": false,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 30,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 83,
+      "name": "F18",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 35,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 84,
+      "name": "F19",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 40,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 85,
+      "name": "F20",
+      "zoneId": 1,
+      "available": false,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 45,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 86,
+      "name": "F21",
+      "zoneId": 1,
+      "available": false,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 50,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 87,
+      "name": "F22",
+      "zoneId": 1,
+      "available": false,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 55,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 88,
+      "name": "F23",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 60,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 89,
+      "name": "F24",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 15,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 90,
+      "name": "F25",
+      "zoneId": 1,
+      "available": true,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 25,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 91,
+      "name": "F26",
+      "zoneId": 1,
+      "available": false,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 35,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 92,
+      "name": "F27",
+      "zoneId": 1,
+      "available": false,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 45,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 93,
+      "name": "F28",
+      "zoneId": 1,
+      "available": false,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 55,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 94,
+      "name": "F29",
+      "zoneId": 1,
+      "available": false,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 30,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
+        "isHorizontal": true
+      }
+    },
+    {
+      "id": 95,
+      "name": "F30",
+      "zoneId": 1,
+      "available": false,
+      "floor": -2,
+      "entryId": 1,
+      "elevatorId": 1,
+      "range": 40,
+      "coordinates": {
+        "x": 0,
+        "y": 250,
         "isHorizontal": true
       }
     }
